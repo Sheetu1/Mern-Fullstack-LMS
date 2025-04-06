@@ -1,25 +1,11 @@
-import "./App.css";
-import { Button } from "./components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./components/ui/card";
-import { Auth } from "./pages/Auth/Auth";
-import { CardWithForm } from "./pages/Card/Card";
-
-function App() {
+import AppRoutes from "./routes/AppRoutes"
+const App = () => {
   return (
-    <>
-      <Auth/>
-    </>
-  );
+    <div className="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen">
+      <AppRoutes />
+    </div>
+  )
 }
 
 export default App;
 
-// NMKJfqSkqeCNJEUe password
-// mongodb+srv://sheetusharma548:NMKJfqSkqeCNJEUe@cluster0.dataq.mongodb.net/ (url)
