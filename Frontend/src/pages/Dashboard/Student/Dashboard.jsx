@@ -1,6 +1,6 @@
- // src/pages/Dashboard/Student/Dashboard.jsx
+  // src/pages/Dashboard/Student/Dashboard.jsx
 
- const Dashboard = () => {
+  const Dashboard = () => {
     return (
       <div className="text-gray-800 space-y-6">
         <h1 className="text-3xl font-bold">🎓 Welcome back, Student!</h1>
